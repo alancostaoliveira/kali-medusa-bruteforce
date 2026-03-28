@@ -19,3 +19,20 @@ cd kali-medusa-bruteforce
 
 # Configure o ambiente seguindo ENVIRONMENT_SETUP.md
 chmod +x scripts/*.sh
+
+kali-medusa-bruteforce/
+├── README.md
+├── ENVIRONMENT_SETUP.md
+├── FTP_ATTACK.md
+├── WEB_FORM_ATTACK.md
+├── SMB_ATTACK.md
+├── MITIGATION_RECOMMENDATIONS.md
+├── LICENSE
+├── wordlists/
+│   ├── passwords.txt
+│   └── users.txt
+└── scripts/
+    ├── ftp_bruteforce.sh
+    ├── web_bruteforce.sh
+    └── smb_enumeration.sh
+
